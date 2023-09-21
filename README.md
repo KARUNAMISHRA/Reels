@@ -6,7 +6,7 @@ A simple and easy to use Instagram reels clone made using reactjs and firebase w
 
 * Clone the repository 
     ```
-    $ git clone https://github.com/MohakGogia/Reels
+    $ git clone https://github.com/KARUNAMISHRA
     $ cd Reels
     ```
 
