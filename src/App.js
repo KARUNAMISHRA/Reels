@@ -24,14 +24,13 @@ function App() {
               <Route path="/" component={Feeds} exact></Route>
               <Route path="/profile" component={Profile} exact></Route>
               <Redirect to="/"></Redirect>
-              <Route path="/login" component={Login} exact></Route>
-              <Route path="/signup" component={Signup} exact></Route>
-              <Redirect to="/login"></Redirect>
-
             </>
           ) : (
             <>
-                         </>
+              <Route path="/login" component={Login} exact></Route>
+              <Route path="/signup" component={Signup} exact></Route>
+              <Redirect to="/login"></Redirect>
+            </>
           )}
         </Switch>
       </div>
